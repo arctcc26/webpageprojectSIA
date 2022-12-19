@@ -32,3 +32,17 @@ body{
         border-radius; 6px;
       
     }
+    
+  .background-image{
+    
+    background-image: url("back1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    *{
+      margin; 0;
+      padding: 0;
+      
+    }
+    
+    
