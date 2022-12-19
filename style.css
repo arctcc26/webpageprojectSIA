@@ -1,0 +1,274 @@
+
+body{
+
+	margin: 0;
+	padding: 0;
+
+	font-family: Arial;		
+}
+.navbar ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+}
+.navbar li{
+	display: inline-block;
+
+}
+.navbar a{
+	
+	width: 100px;
+	color: white;
+	display: block;
+	padding: 25px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.navbar a:hover{
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 6px;
+
+}
+
+/*END OF STYLING HOME PAGE'*/
+
+/* START BACKGROUND IN PROFILE WEPAGE*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.background-image{
+
+	background-image: url("back1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	height: 100vh;
+}
+/* END BACKGROUND IN PROFILE WEPAGE*/
+
+/*START BACKGROUND OF CAREER WEPAGE*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.background{
+
+	background-image: url("back1.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	height: 100vh;
+}
+/* END BACKGROUND OF CAREER WEPAGE*/
+
+/* START BACKGROUND TRAVEL*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.background1{
+
+	background-image: url("back1.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	height: 100vh;
+}
+
+/*END BACKGROUND TRAVEL*/
+
+
+
+/*START OF STYLE IN PROFILE WEBPAGE*/
+
+*{
+	margin: 0;
+	padding: 0;
+	 text-decoration: none;
+	 color: white;
+
+}
+
+#sidebar{
+	 
+	position: fixed;
+	width: 30%;
+	height: 80%;
+	left: -30%;
+	
+}
+#sidebar li{
+
+  	 text-decoration: none;
+	font-size: 30px;
+	padding: 50px;
+	border-bottom: 2px solid gray;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.toggle-btn{
+	
+	position: absolute;
+	left: 105%;
+	top: 15px;
+}
+
+.toggle-btn span{
+	 
+	display: block;
+	background-color: grey;
+	width: 40px;
+	height: 5px;
+	margin: 3px;
+}
+
+#sidebar.active{
+	left: 0;
+}
+#sidebar a:hover{
+	padding: 25px 20px;
+	background: rgba(3, 0, 0, 0.9);
+	border-radius: 5px;
+}
+
+
+/*START OF STYLING CAREER WEPAGE*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("back1.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;	
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.cover{
+	width: 1100px;
+	height: 600px;
+	/*background: #000;*/
+	margin-top: 50px;
+	display: flex;
+}
+.box{
+	margin: 10px;
+	width: 800px;
+	height: 450px;
+	box-shadow: -1px 0 20px blue;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-style: italic;
+	font-size: 15px;
+	text-transform: uppercase;
+	/*background-color: black;*/
+
+
+}
+img{
+	width: 350px;
+	height: 280px;
+	display: flex;
+}
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("back1.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;	
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.cover1{
+	width: 400px;
+	height: 650px;
+	/*background: #000;*/
+	margin-top: 20px;
+	display: flex;
+}
+.box1{
+	margin: 10px;
+	width: 800px;
+	height: 600px;
+	box-shadow: -1px 0 15px blue;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	text-transform: uppercase;
+	/*background-color: black;*/
+
+
+}
+img{
+	width: 300px;
+	height: 300px;
+	display: flex;
+}
+
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("back1.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;	
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.cover2{
+	width: 1100px;
+	height: 600px;
+	/*background: #000;*/
+	margin-top: 50px;
+	display: flex;
+}
+.box2{
+	margin: 10px;
+	width: 800px;
+	height: 450px;
+	box-shadow: -1px 0 20px blue;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 15px;
+	font-style: italic;
+	text-transform: uppercase;
+	/*background-color: black;*/
+
+
+}
+img{
+	width: 379px;
+	height: 280px;
+	display: flex;
+}
